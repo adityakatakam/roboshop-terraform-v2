@@ -6,7 +6,7 @@ variable "instance_type" {
   default = "t3.small"
 }
 
-variable "security_group_ids" {
+variable "vpc_security_group_ids" {
   default = "sg-08cebf157b626fae0"
 }
 
